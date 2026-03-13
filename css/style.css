@@ -34,7 +34,7 @@ body {
 .home_page .header_height{
     height:0;
 }
-.header {
+.header,.home_page.sticky .header{
     background-color:#00294d;
     padding:1.25rem 0;
     z-index: 100;
@@ -44,6 +44,7 @@ body {
 }
 .home_page .header{
     background-color:transparent;
+    box-shadow:none;
 }
 .home_page .header.sticky{
     height: var(--header-height);
@@ -839,18 +840,18 @@ body {
 /* Engineering Section */
 .engineering {
     background-color:#00294d;
-    padding: 60px 0;
+    padding:1.5rem 0 4rem;
     color: var(--color-text-light);
 }
 
 .section-header {
-    display: flex;
-    gap: 40px;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    gap:4.16rem;
+    margin-bottom:1.75rem;
 }
-
 .section-header__text {
-    flex: 0 0 250px;
+    /*flex: 0 0 250px;*/
 }
 
 .section-header__title {
@@ -871,8 +872,7 @@ body {
 
 .section-header__image {
     flex: 1;
-    height: 180px;
-    border-radius: 8px;
+    border-radius:0 .875rem .875rem .875rem;
     overflow: hidden;
 }
 
@@ -883,11 +883,11 @@ body {
 }
 
 .section-desc {
-    font-size: 14px;
-    line-height: 1.8;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 40px;
-    max-width: 900px;
+    color: #949288;
+    font-size: 1.5625rem;
+    font-weight: 600;
+    line-height: 2.1875rem; /* 140% */
+    letter-spacing: -0.05113rem;
 }
 
 .services-title {

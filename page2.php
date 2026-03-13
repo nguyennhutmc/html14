@@ -60,7 +60,7 @@
                     <p class="section-header__subtitle">MIT FOKUS AUF FUNKTION UND FERTIGUNG</p>
                 </div>
                 <div class="section-header__image">
-                    <img src="https://csspicker.dev/api/image/?q=car+interior+design&image_type=photo" alt="Car Interior Design">
+                    <img src="images/Engineering_header.png" alt="Car Interior Design">
                 </div>
             </div>
             <p class="section-desc">Wir entwickeln Bauteile und Baugruppen aus Kunststoff mit einem tiefen Verständnis für Materialien, Prozesse und Anforderungen im Automotive-Umfeld. Unser Engineering-Ansatz stellt sicher, dass alle Komponenten nicht nur konstruktiv durchdacht, sondern auch optimal für die Serienfertigung ausgelegt sind.</p>

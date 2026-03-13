@@ -19,7 +19,7 @@ function init() {
 
 function _sticky() {
     var winscroll = $(window).scrollTop();
-    if (winscroll >= vw * 40) {
+    if (winscroll >= vw * 4.6875) {
         $("body").addClass("sticky");
     } else {
         $("body").removeClass("sticky");
@@ -49,7 +49,7 @@ $(window).load(function(){
 });
 var lastScrollTop = 0;
 $(window).on("scroll", function (event) {
-    if ($(window).width() < 992) {
+
         _sticky();
-    }
+
 });
