@@ -66,70 +66,184 @@
             <p class="section-desc">Wir entwickeln Bauteile und Baugruppen aus Kunststoff mit einem tiefen Verständnis für Materialien, Prozesse und Anforderungen im Automotive-Umfeld. Unser Engineering-Ansatz stellt sicher, dass alle Komponenten nicht nur konstruktiv durchdacht, sondern auch optimal für die Serienfertigung ausgelegt sind.</p>
             <h3 class="services-title">LEISTUNGEN</h3>
             <div class="services-grid">
-                <div class="service-card">
-                    <h4 class="service-card__title">Bauteil- und Baugruppenentwicklung (z. B. Interieur wie Mittelkonsolen)</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-01.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Bauteil- und Baugruppenentwicklung (z. B. Interieur wie Mittelkonsolen)</h4>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">CAD-Konstruktion und Detaillierung</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-02.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">CAD-Konstruktion und Detaillierung</h4>
+                    </div>
+
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">Kunststoffgerechte Auslegung (Design for Manufacturing)</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-03.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Kunststoffgerechte Auslegung (Design for Manufacturing)</h4>
+                    </div>
+
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">Toleranz- und Funktionsanalysen</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-04.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Toleranz- und Funktionsanalysen</h4>
+                    </div>
+
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">Werkstoffauswahl und technische Beratung</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-05.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Werkstoffauswahl und technische Beratung</h4>
+                    </div>
+
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">Simulation (z. B. Verzug, Füllverhalten, Belastung)</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-06.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Simulation (z. B. Verzug, Füllverhalten, Belastung)</h4>
+                    </div>
+
                 </div>
-                <div class="service-card">
-                    <h4 class="service-card__title">Prototypen und Iterationsschleifen</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-07.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Prototypen und Iterationsschleifen</h4>
+                    </div>
+
                 </div>
-            </div>
-            <div class="contact-bar">
-                <a href="mailto:info@sauerproduct.com" class="contact-btn contact-btn--email">
-                    <i data-lucide="mail"></i>
-                    <span>info@sauerproduct.com</span>
-                </a>
-                <a href="tel:+4976712070100" class="contact-btn contact-btn--phone">
-                    <i data-lucide="phone"></i>
-                    <span>0671 / 2070-100</span>
-                </a>
+                <div class="service-card2">
+                    <a href="mailto:info@sauerproduct.com" class="contact-item">
+                        <img src="images/icon_@.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">SCHREIBEN SIE UNS PER MAIL</div>
+                            <span class="txt2">info@sauerproduct.com</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-card2">
+                    <a href="tel:060712070100" class="contact-item">
+                        <img src="images/icon_phone.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">WIR FREUEN UNS ÜBER IHREN ANRUF</div>
+                            <span class="txt2">06071 / 2070-100</span>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Project Management Section -->
-    <section class="project-mgmt section_shadow">
+    <section class="engineering section_shadow">
         <div class="container">
             <div class="section-header section-header--light">
                 <div class="section-header__text">
-                    <h2 class="section-header__title">Projekt-<br>management</h2>
-                    <p class="section-header__subtitle">MIT ÜBERBLICK UND VERANTWORTUNG</p>
+                    <h2 class="section-header__title">Engineering</h2>
+                    <p class="section-header__subtitle">MIT FOKUS AUF FUNKTION UND FERTIGUNG</p>
                 </div>
                 <div class="section-header__image">
-                    <img src="https://csspicker.dev/api/image/?q=project+management+team&image_type=photo" alt="Project Management">
+                    <img src="images/project_header.png" alt="Car Interior Design">
                 </div>
             </div>
-            <p class="section-desc">Unsere Projekte werden strukturiert, transparent und zielorientiert gesteuert. Wir koordinieren alle Schnittstellen und sorgen für einen reibungslosen Ablauf über sämtliche Projektphasen hinweg. Dabei behalten wir stets die entscheidenden Faktoren im Blick: Termine, Kosten und Qualität.</p>
+            <p class="section-desc">Wir entwickeln Bauteile und Baugruppen aus Kunststoff mit einem tiefen Verständnis für Materialien, Prozesse und Anforderungen im Automotive-Umfeld. Unser Engineering-Ansatz stellt sicher, dass alle Komponenten nicht nur konstruktiv durchdacht, sondern auch optimal für die Serienfertigung ausgelegt sind.</p>
             <h3 class="services-title">LEISTUNGEN</h3>
-            <div class="services-grid services-grid--red">
-                <div class="service-card service-card--red">
-                    <h4 class="service-card__title">Projektplanung und Meilensteinsteuerung</h4>
+            <div class="services-grid">
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-01.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Bauteil- und Baugruppenentwicklung (z. B. Interieur wie Mittelkonsolen)</h4>
+                    </div>
                 </div>
-                <div class="service-card service-card--red">
-                    <h4 class="service-card__title">Kundenkommunikation und Reporting</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-02.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">CAD-Konstruktion und Detaillierung</h4>
+                    </div>
+
                 </div>
-                <div class="service-card service-card--red">
-                    <h4 class="service-card__title">Schnittstellenmanagement (intern & extern)</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-03.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Kunststoffgerechte Auslegung (Design for Manufacturing)</h4>
+                    </div>
+
                 </div>
-                <div class="service-card service-card--red">
-                    <h4 class="service-card__title">Änderungsmanagement</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-04.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Toleranz- und Funktionsanalysen</h4>
+                    </div>
+
                 </div>
-                <div class="service-card service-card--red">
-                    <h4 class="service-card__title">Begleitung bis zur Serienfreigabe</h4>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-05.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Werkstoffauswahl und technische Beratung</h4>
+                    </div>
+
+                </div>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-06.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Simulation (z. B. Verzug, Füllverhalten, Belastung)</h4>
+                    </div>
+
+                </div>
+                <div class="service-card2">
+                    <div class="service-card2-img">
+                        <img src="images/Engineering-07.png" alt="">
+                    </div>
+                    <div class="service-card2-content">
+                        <h4 class="service-card__title">Prototypen und Iterationsschleifen</h4>
+                    </div>
+
+                </div>
+                <div class="service-card2">
+                    <a href="mailto:info@sauerproduct.com" class="contact-item">
+                        <img src="images/icon_@.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">SCHREIBEN SIE UNS PER MAIL</div>
+                            <span class="txt2">info@sauerproduct.com</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="service-card2">
+                    <a href="tel:060712070100" class="contact-item">
+                        <img src="images/icon_phone.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">WIR FREUEN UNS ÜBER IHREN ANRUF</div>
+                            <span class="txt2">06071 / 2070-100</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
