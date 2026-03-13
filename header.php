@@ -10,7 +10,7 @@
     <title>Hello, world!</title>
 </head>
 <body>
-<div id="page" class="home_page vw-100">
+<div id="page" class="vw-100">
     <!-- Header -->
     <header class="header w-100 fixed-top">
         <div class="container">

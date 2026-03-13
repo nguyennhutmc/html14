@@ -1,5 +1,5 @@
 <?php include 'header.php'; ?>
-<main>
+<main class="home_page">
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-bg">
