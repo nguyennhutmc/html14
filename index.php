@@ -17,7 +17,7 @@
             <div class="grid-top">
                 <div class="card main-video">
                     <img src="images/img1.png" alt="Production">
-                    <div class="play-btn">v</div>
+                    <div class="play-btn">V</div>
                 </div>
 
                 <div class="stat-group">
@@ -112,7 +112,7 @@
                 <div class="service-content">
                     <h3>Engineering & Projectmanagement</h3>
                 </div>
-                <span class="play-btn"><i data-lucide="play"></i></span>
+                    <span class="play-btn">V</span>
             </div>
 
             <div class="service-card">
@@ -121,7 +121,7 @@
                 <div class="service-content">
                     <h3>Production & Assembly</h3>
                 </div>
-                <span class="play-btn"><i data-lucide="play"></i></span>
+                <span class="play-btn">V</span>
             </div>
 
             <div class="service-card">
@@ -130,7 +130,7 @@
                 <div class="service-content">
                     <h3>Validation & Testing</h3>
                 </div>
-                <span class="play-btn"><i data-lucide="play"></i></span>
+                <span class="play-btn">V</span>
             </div>
         </div>
     </section>
@@ -176,7 +176,7 @@
             </div>
             <div class="concept-image">
                 <img src="images/img3.png" alt="Precision Manufacturing">
-                <span class="play-btn"><i data-lucide="play"></i></span>
+                <span class="play-btn">V</span>
             </div>
         </div>
     </section>

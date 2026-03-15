@@ -58,7 +58,7 @@
             <div class="footer-col">
                 <h4 class="text-primary">SOFT + HARD SKILLS</h4>
                 <ul>
-                    <li>Kernzahlen</li>
+                    <li><a href="#">Kernzahlen</a></li>
                     <li>Philosophie</li>
                     <li>Systemlieferant</li>
                     <li>Engineering</li>

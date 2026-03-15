@@ -195,7 +195,10 @@ body {
     background: var(--color-bg-light);
     padding: 40px 0;
 }
-/*###*/
+.stats-section .card img{
+    border-radius:0 .875rem .875rem .875rem;
+}
+    /*###*/
 /* Lưới hàng trên */
 .grid-top {
     display: grid;
@@ -212,16 +215,16 @@ body {
     position: absolute;
     bottom:1.54rem;
     right:1.54rem;
-    background: #d40072;
-    color: transparent;
+    background: #E6007D;
+    color: #fff;
     border-radius: 50%;
     display: flex;
-    align-items: center;
+    align-items:start;
     justify-content: center;
     font-weight: bold;
     font-size: 1.59375rem;
+    line-height:1.75;
     cursor: pointer;
-    background-image:url("../images/icon_v.svg");
     width: 2.92256rem;
     height: 2.92256rem;
 }
@@ -426,7 +429,7 @@ body {
 .service-card {
     position: relative;
     height: 40.5rem;
-    border-radius: 8px;
+    border-radius:0 3rem 3rem 3rem;
     overflow: hidden;
     margin-bottom:2.875rem;
 }
@@ -860,8 +863,9 @@ body {
     color: #FFF;
     font-size: 2.8125rem;
     font-weight: 700;
-    line-height: 3.875rem; /* 137.778% */
+    line-height:137.778%;
     letter-spacing: -0.11538rem;
+    margin-bottom:.58rem;
 }
 
 .section-header__subtitle {
@@ -906,7 +910,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3.58rem 4.31rem;
-    margin-bottom: 40px;
+    margin-bottom:1rem;
 }
 
 .service-card2 {
@@ -976,123 +980,117 @@ body {
 
 /* Project Management Section */
 .project-mgmt {
-    background-color: #00294d;
-    padding: 60px 0;
-    color: var(--color-text-light);
 }
 
 /* IT Security Section */
 .it-security {
-    padding: 60px 0;
+    padding:3.75rem 0 6rem;
+    background-color: #00294d;
 }
 
 .it-security__title {
-    font-size: 48px;
-    font-weight: 300;
-    color: var(--color-accent);
-    margin-bottom: 40px;
+    color:rgba(222, 220, 0, .3);
+    font-size: 10rem;
+    font-weight: 700;
+    line-height:1.25;
+    letter-spacing: -0.42969rem;
+    margin-bottom:1.09rem;
+    height:12.5rem;
+    padding:0 2.73rem;
+    background-image:var(--bg);
+    background-size:cover;
+    border-radius:0 .875rem .875rem .875rem;
 }
 
-.it-security__grid {
+.it-security__grid,.production__grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 3.58rem 4.31rem;
 }
 
-.it-security__col {
-    font-size: 13px;
-    line-height: 1.8;
-    color: var(--color-text-dark);
+.it-security__col{
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height:142.857%;
+    letter-spacing: -0.02819rem;
 }
-
+.it-security__col.txt1,.production__col.txt1{
+    color: #949288;
+    font-size: 1.5625rem;
+    font-weight: 600;
+    line-height:140%;
+    letter-spacing: -0.04881rem;
+}
 /* Production Section */
 .production {
-    background: var(--color-bg-light);
-    padding: 60px 0;
-    color: var(--color-text-dark);
+    background:#939188;
+    padding:3rem 0 4rem;
 }
 
 .production__title {
-    font-size: 28px;
-    font-weight: 600;
-    color: var(--color-text-dark);
-    margin-bottom: 30px;
+    color: #FFF;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.875rem; /* 137.778% */
+    letter-spacing: -0.10713rem;
+    margin-bottom:2.25rem;
 }
 
 .production__image {
     position: relative;
     width: 100%;
-    height: 400px;
-    border-radius: 8px;
+    border-radius:0 3rem 3rem 3rem;
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom:1rem;
 }
 
 .production__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition:all .8s;
 }
-
-.production__badge {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    background: var(--color-red);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
+.production__image:hover img{
+    transform: scale(1.07);
+}
+.production__image .play-btn{
+    right:4rem;
+    top:2.5rem;
+    bottom: auto;
 }
 
 .production__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
 }
 
 .production__col {
-    font-size: 13px;
-    line-height: 1.8;
-    color: var(--color-text-dark);
+    color: #FFF;
+    font-size: 1.5625rem;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.04731rem;
 }
-
+.production__col.txt1{
+    color: #fff;
+}
 /* Quality Section */
 .quality {
-    background: var(--color-bg-beige);
-    padding: 60px 0;
-    color: var(--color-text-dark);
+    background-color: #939188;
 }
 
-.quality__title {
-    font-size: 48px;
-    font-weight: 300;
-    color: var(--color-accent);
-    margin-bottom: 40px;
-}
+.quality__title {}
 
 .quality__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
 }
 
-.quality__col {
-    font-size: 13px;
-    line-height: 1.8;
-    color: var(--color-text-dark);
+.quality__col {}
+.quality__col.it-security__col.txt1{
+    color:#006885;
 }
-
 /* Logistics Section */
 .logistics {
-    background: var(--color-bg-light);
-    padding: 60px 0;
-    color: var(--color-text-dark);
+    background-color: #939188;
 }
 
 .logistics__title {
@@ -1103,59 +1101,33 @@ body {
 }
 
 .logistics__grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+
 }
 
-.logistics__col {
-    font-size: 13px;
-    line-height: 1.8;
-    color: var(--color-text-dark);
+.logistics__col.it-security__col.txt1{
+    color: #445060;
 }
 
 /* Validation Section */
 .validation {
-    background: var(--color-bg-beige);
-    padding: 60px 0;
-    color: var(--color-text-dark);
+    background: #c6c5bb;
+    padding: 3rem 0 4rem;
 }
 
 .validation__title {
-    font-size: 28px;
-    font-weight: 600;
-    color: var(--color-text-dark);
-    margin-bottom: 30px;
+    color: #001D49;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.875rem;
+    letter-spacing: -0.10713rem;
+    margin-bottom: 2.25rem;
 }
 
 .validation__image {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    border-radius: 8px;
-    overflow: hidden;
 }
 
 .validation__image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.validation__badge {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    background: var(--color-red);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 20px;
-    font-weight: bold;
 }
 /*page2*/
 /* Responsive */
