@@ -1269,6 +1269,30 @@ body {
     .intro-title{
         font-size: calc(2.15rem / 1.25);
     }
+    .section-header__title{
+        font-size:2.25rem;
+    }
+    .section-header__subtitle{
+        font-size:1.25rem;
+        line-height:normal;
+    }
+    .section-desc{
+        font-size:1.25rem;
+        line-height:normal;
+    }
+    .it-security__col.txt1, .production__col.txt1{
+        font-size:1.25rem;
+    }
+    .it-security__col,.production__col{
+        font-size:.875rem;
+    }
+    .validation__image{
+        border-radius: 0 .875rem .875rem .875rem;
+    }
+    .production__image .play-btn{
+        right: calc(4rem / 4);
+        top: calc(2.5rem / 4);
+    }
     /*page2*/
 }
 @media (min-width:992px) {
