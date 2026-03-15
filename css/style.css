@@ -1130,6 +1130,319 @@ body {
 .validation__image img {
 }
 /*page2*/
+/*contact*/
+/* Main Content */
+.main-content {
+    padding: 40px 0;
+    background-color: var(--bg-beige);
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+/* Left Column */
+.intro-section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.intro-text {
+    color: var(--text-gray);
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.sub-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.contact-box {
+    background-color: var(--accent-yellow);
+    padding: 30px;
+    border-radius: 4px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.fingerprint-icon {
+    flex-shrink: 0;
+}
+
+.fingerprint-icon i {
+    width: 80px;
+    height: 80px;
+    color: var(--primary-blue);
+}
+
+.contact-info {
+    color: var(--text-dark);
+}
+
+.contact-label {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contact-company {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.contact-dept {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.contact-address {
+    font-size: 13px;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.contact-email {
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+/* Right Column */
+.jobs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.jobs-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-dark);
+    letter-spacing: 0.5px;
+}
+
+.jobs-notice {
+    background-color: var(--accent-coral);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 11px;
+    line-height: 1.4;
+    max-width: 180px;
+}
+
+.job-categories {
+    margin-bottom: 30px;
+}
+
+.job-category {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-pink);
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+
+.job-list {
+    list-style: none;
+}
+
+.job-list li {
+    font-size: 12px;
+    color: var(--text-dark);
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.job-list li i {
+    width: 12px;
+    height: 12px;
+    color: var(--accent-coral);
+}
+
+.promo-image {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.promo-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.promo-badge {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: var(--accent-coral);
+    color: var(--white);
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #c8b8b8;
+    padding: 40px 0;
+}
+
+.contact-section-title {
+    font-size: 18px;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: var(--white);
+}
+
+.form-input::placeholder {
+    color: var(--text-light);
+    font-size: 10px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-textarea {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: var(--white);
+    min-height: 120px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.form-textarea::placeholder {
+    color: var(--text-light);
+    font-size: 10px;
+}
+
+.attachment-btn {
+    background-color: var(--accent-coral);
+    color: var(--white);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+}
+
+.submit-btn {
+    background-color: #888;
+    color: var(--white);
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-method {
+    background-color: #8a7a8a;
+    padding: 15px 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.method-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    flex-shrink: 0;
+}
+
+.method-icon i {
+    width: 20px;
+    height: 20px;
+}
+
+.method-info {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.method-label {
+    font-size: 9px;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.method-value {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*contact*/
 /* Responsive */
 @media (max-width:991.98px) {
     .main-nav {
