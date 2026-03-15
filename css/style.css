@@ -929,8 +929,8 @@ body {
     left:0;
     top:0;
 }
-.service-card2-img{
-
+.service-card2-img img{
+    width:100%;
 }
 .service-card--red {
     background: var(--color-red);
@@ -1184,9 +1184,11 @@ body {
     }
     .service-card{
         height:12.5rem;
+        border-radius:0 1.5rem 1.5rem 1.5rem;
     }
     .service-content h3{
         font-size: 1.8125rem;
+        line-height:normal;
     }
     .service-card .play-btn{
         top:1rem;
@@ -1216,7 +1218,8 @@ body {
     }
     /*page2*/
     .hero__title {
-        font-size: 28px;
+        font-size:2.25rem;
+        line-height:normal;
     }
 
     .intro__grid,
@@ -1227,10 +1230,13 @@ body {
     .quality__grid,
     .logistics__grid {
         grid-template-columns: 1fr;
+        gap: 1.58rem 4.31rem;
     }
 
     .section-header {
         flex-direction: column;
+        grid-template-columns: 1fr;
+        gap: 1.16rem;
     }
 
     .section-header__text {
@@ -1239,6 +1245,29 @@ body {
 
     .contact-bar {
         flex-direction: column;
+    }
+    .service-card2{
+        min-height:auto;
+    }
+    .production__title,.validation__title{
+        font-size: 1.8125rem;
+    }
+    .it-security__title{
+        display:grid;
+        align-items:center;
+        letter-spacing:normal;
+        font-size:2rem;
+        height: 4.5rem;
+        padding: 0 1rem;
+    }
+    .branchen-content{
+        left:2rem;
+    }
+    .branchen-content h3{
+        font-size:1.275rem;
+    }
+    .intro-title{
+        font-size: calc(2.15rem / 1.25);
     }
     /*page2*/
 }

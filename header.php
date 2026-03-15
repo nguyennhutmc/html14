@@ -25,8 +25,8 @@
                 </nav>
                 <div class="header-actions">
                     <button class="icon-btn"><img src="images/icon-search.svg" alt=""></button>
-                    <a href="#" class="nav-link">KONTAKT</a>
-                    <a href="#" class="nav-link">KARRIERE</a>
+                    <a href="#" class="nav-link pc">KONTAKT</a>
+                    <a href="#" class="nav-link pc">KARRIERE</a>
                     <a href="#" class="nav-link"><span class="lang">EN</span><img class="ms-2 align-baseline" src="images/small_right.svg" alt=""></a>
                 </div>
             </div>
