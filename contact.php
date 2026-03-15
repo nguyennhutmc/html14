@@ -1,12 +1,17 @@
 <?php include 'header.php'; ?>
-<main>
+<main class="contact section_shadow">
     <!-- Main Content -->
     <main class="main-content">
+        <div class="container">
+            <div class="contact-title">
+                Karriere
+            </div>
+        </div>
         <div class="container">
             <div class="content-grid">
                 <!-- Left Column -->
                 <div class="left-column">
-                    <section class="intro-section">
+                    <section class="intro-section2">
                         <h2 class="section-title">BEGEISTERUNG LEBEN</h2>
                         <p class="intro-text">Lösungen, die begeistern, können nur von Menschen mit Begeisterung geschaffen werden. Aus solchen Menschen besteht unser Team.</p>
 
@@ -16,14 +21,12 @@
 
                     <section class="contact-box">
                         <div class="fingerprint-icon">
-                            <i data-lucide="fingerprint"></i>
+                            <img src="images/finger.svg" alt="">
                         </div>
                         <div class="contact-info">
-                            <p class="contact-label">Wir freuen uns auf Ihre Bewerbung unter:</p>
-                            <p class="contact-company">sauer product GmbH</p>
-                            <p class="contact-dept">Personalabteilung</p>
-                            <p class="contact-address">Frankfurter Straße 73<br>64807 Dieburg</p>
-                            <a href="mailto:recruiting@sauerproduct.com" class="contact-email">recruiting@sauerproduct.com</a>
+                            <p>Wir freuen uns auf Ihre Bewerbung unter:</p>
+                            <p><strong>sauer product GmbH<br>Personalabteilung<br>Frankfurter Straße 73<br>64807 Dieburg</strong></p>
+                            <p><a><strong>recruiting@sauerproduct.com</strong></a></p>
                         </div>
                     </section>
                 </div>
@@ -32,60 +35,56 @@
                 <div class="right-column">
                     <div class="jobs-header">
                         <h2 class="jobs-title">STELLENANGEBOTE</h2>
-                        <div class="jobs-notice">
-                            <p>Verlinkungen wie gehabt</p>
-                            <p>>> Nutzung des vorhandenen Systems</p>
-                        </div>
                     </div>
 
                     <div class="job-categories">
                         <div class="job-category">
                             <h4 class="category-title">PROJEKTMANAGEMENT & VERTRIEB</h4>
                             <ul class="job-list">
-                                <li><i data-lucide="chevron-right"></i> Projektleiter Automotive (m/w/d)</li>
+                                <li><i>></i><a href="#">Projektleiter Automotive (m/w/d)</a></li>
                             </ul>
                         </div>
 
                         <div class="job-category">
                             <h4 class="category-title">PRODUKTION & LOGISTIK</h4>
                             <ul class="job-list">
-                                <li><i data-lucide="chevron-right"></i> Supply Chain Manager Automotive (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Disponent Automotive (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> LKW-Fahrer für den internen Werksverkehr (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Mitarbeiter Lagerlogistik (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Mitarbeiter Produktion (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Einrichter/Verfahrensmechaniker Spritzguss (m/w/d)</li>
+                                <li><i>></i> <a href="">Supply Chain Manager Automotive (m/w/d)</a></li>
+                                <li><i>></i> Disponent Automotive (m/w/d)</li>
+                                <li><i>></i> LKW-Fahrer für den internen Werksverkehr (m/w/d)</li>
+                                <li><i>></i> Mitarbeiter Lagerlogistik (m/w/d)</li>
+                                <li><i>></i> Mitarbeiter Produktion (m/w/d)</li>
+                                <li><i>></i> Einrichter/Verfahrensmechaniker Spritzguss (m/w/d)</li>
                             </ul>
                         </div>
 
                         <div class="job-category">
                             <h4 class="category-title">VERWALTUNG & FINANZEN</h4>
                             <ul class="job-list">
-                                <li><i data-lucide="chevron-right"></i> Head of IT (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> IT-Administrator (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Mitarbeiter Finance-Team (m/w/d)</li>
+                                <li><i>></i> Head of IT (m/w/d)</li>
+                                <li><i>></i> IT-Administrator (m/w/d)</li>
+                                <li><i>></i> Mitarbeiter Finance-Team (m/w/d)</li>
                             </ul>
                         </div>
 
                         <div class="job-category">
                             <h4 class="category-title">STUDENTISCHE AUSHILFSKRÄFTE</h4>
                             <ul class="job-list">
-                                <li><i data-lucide="chevron-right"></i> Studentische Aushilfe/Werkstudent im Bereich Logistik (m/w)</li>
+                                <li><i>></i> Studentische Aushilfe/Werkstudent im Bereich Logistik (m/w)</li>
                             </ul>
                         </div>
 
                         <div class="job-category">
                             <h4 class="category-title">AUSBILDUNG</h4>
                             <ul class="job-list">
-                                <li><i data-lucide="chevron-right"></i> Ausbildung zum Kunststoff- und Kautschuktechnologe (ehem. Verfahrensmechaniker) 2026 (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Ausbildung Fachkraft Lagerlogistik 2026 (m/w/d)</li>
-                                <li><i data-lucide="chevron-right"></i> Ausbildung Industriekauffrau / Industriekaufmann 2026 (m/w/d)</li>
+                                <li><i>></i> Ausbildung zum Kunststoff- und Kautschuktechnologe (ehem. Verfahrensmechaniker) 2026 (m/w/d)</li>
+                                <li><i>></i> Ausbildung Fachkraft Lagerlogistik 2026 (m/w/d)</li>
+                                <li><i>></i> Ausbildung Industriekauffrau / Industriekaufmann 2026 (m/w/d)</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="promo-image">
-                        <img src="https://csspicker.dev/api/image/?q=team+workers+celebration&image_type=photo" alt="Besten aus!">
+                        <img src="images/social.png" alt="Besten aus!">
                         <div class="promo-badge">
                             <span>Besten aus!</span>
                         </div>
@@ -105,38 +104,35 @@
                     <input type="email" placeholder="EMAIL" class="form-input">
                     <input type="tel" placeholder="TELEFON" class="form-input">
                     <input type="text" placeholder="BETREFF" class="form-input">
+                    <input type="file" placeholder="BETREFF" class="form-input">
                     <div class="form-row">
                         <textarea placeholder="NACHRICHT" class="form-textarea"></textarea>
-                        <button type="button" class="attachment-btn">
-                            <span>Möglichkeit hinzufügen,</span>
-                            <span>um einen Anhang zu senden</span>
-                        </button>
                     </div>
                     <button type="submit" class="submit-btn">ABSENDEN</button>
                 </form>
 
                 <div class="contact-methods">
-                    <div class="contact-method">
-                        <div class="method-icon">
-                            <i data-lucide="phone"></i>
+                    <a href="tel:060712070100" class="contact-item">
+                        <img src="images/icon_phone.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">WIR FREUEN UNS ÜBER IHREN ANRUF</div>
+                            <span class="txt2">06071 / 2070-100</span>
                         </div>
-                        <div class="method-info">
-                            <span class="method-label">WIR FREUEN UNS ÜBER IHREN ANRUF</span>
-                            <span class="method-value">06071 / 2070-100</span>
+                    </a>
+                    <a href="mailto:info@sauerproduct.com" class="contact-item">
+                        <img src="images/icon_@.svg" alt="">
+                        <div class="txt">
+                            <div class="txt1">SCHREIBEN SIE UNS PER MAIL</div>
+                            <span class="txt2">info@sauerproduct.com</span>
                         </div>
-                    </div>
-                    <div class="contact-method">
-                        <div class="method-icon">
-                            <i data-lucide="at-sign"></i>
-                        </div>
-                        <div class="method-info">
-                            <span class="method-label">SCHREIBEN SIE UNS PER MAIL</span>
-                            <span class="method-value">info@sauerproduct.com</span>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="footer-contact position-relative pt-0">
+
+        <div class="txt_bottom position-absolute w-100 text-center">COMPLEXITY IS OUR BUSINESS.</div>
     </section>
 </main>
 <?php include 'footer.php'; ?>

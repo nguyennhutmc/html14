@@ -1134,13 +1134,23 @@ body {
 /* Main Content */
 .main-content {
     padding: 40px 0;
-    background-color: var(--bg-beige);
+    background-color:#c6c5bb;
+    background-image:url("../images/contact_bg.png");
+    background-size:120rem auto;
+    background-position:top center;
 }
-
+.contact-title{
+    color: #001D49;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 137.778%;
+    letter-spacing: -0.11538rem;
+}
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    grid-template-columns:1.98fr 1fr;
+    gap:7rem 3rem;
 }
 
 /* Left Column */
@@ -1149,34 +1159,38 @@ body {
 }
 
 .section-title {
-    font-size: 18px;
+    color: #646363;
+    font-size: 1.5625rem;
     font-weight: 700;
-    color: var(--text-dark);
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
+    line-height: 2.1875rem; /* 140% */
+    letter-spacing: -0.06713rem;
+    margin-bottom:1rem;
 }
 
 .intro-text {
-    color: var(--text-gray);
-    font-size: 13px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    color: #646363;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.375rem; /* 137.5% */
+    letter-spacing: -0.03225rem;
+    margin-bottom:2rem;
 }
 
 .sub-title {
-    font-size: 14px;
+    color: #001D49;
+    font-size: 1.25rem;
     font-weight: 700;
-    color: var(--primary-blue);
-    margin-bottom: 15px;
-    line-height: 1.5;
+    line-height: 1.75rem; /* 140% */
+    letter-spacing: -0.04881rem;
+    margin-bottom:1.8rem;
 }
 
 .contact-box {
-    background-color: var(--accent-yellow);
-    padding: 30px;
-    border-radius: 4px;
+    background-color:#DEDC00;
+    padding:2rem;
+    border-radius:0 .875rem .875rem .875rem;
     display: flex;
-    gap: 20px;
+    gap:3.73rem;
     align-items: flex-start;
 }
 
@@ -1184,33 +1198,31 @@ body {
     flex-shrink: 0;
 }
 
-.fingerprint-icon i {
-    width: 80px;
-    height: 80px;
-    color: var(--primary-blue);
+.fingerprint-icon img {
+    width:7.8125rem;
 }
 
 .contact-info {
-    color: var(--text-dark);
+    font-size:1rem;
+    color:#666881;
+    line-height:137.5%;
 }
-
+.contact-info p{
+    margin-bottom:1rem;
+}
 .contact-label {
-    font-size: 13px;
-    margin-bottom: 10px;
+    margin-bottom:1rem;
 }
 
 .contact-company {
     font-weight: 700;
-    font-size: 13px;
 }
 
 .contact-dept {
     font-weight: 700;
-    font-size: 13px;
 }
 
 .contact-address {
-    font-size: 13px;
     margin: 5px 0;
     line-height: 1.5;
 }
@@ -1231,10 +1243,11 @@ body {
 }
 
 .jobs-title {
-    font-size: 18px;
+    color: #646363;
+    font-size: 1.5625rem;
     font-weight: 700;
-    color: var(--text-dark);
-    letter-spacing: 0.5px;
+    line-height:140%;
+    letter-spacing: -0.07325rem;
 }
 
 .jobs-notice {
@@ -1248,38 +1261,44 @@ body {
 }
 
 .job-categories {
-    margin-bottom: 30px;
+    margin-bottom:1.875rem;
 }
 
 .job-category {
-    margin-bottom: 20px;
+    margin-bottom:2rem;
 }
 
 .category-title {
-    font-size: 12px;
+    color: #BA4E97;
+    font-size: 1rem;
     font-weight: 700;
-    color: var(--accent-pink);
-    margin-bottom: 8px;
-    letter-spacing: 0.5px;
+    line-height:137.5% ;
+    letter-spacing: -0.03906rem;
 }
 
 .job-list {
     list-style: none;
+    padding-left:0;
 }
 
 .job-list li {
-    font-size: 12px;
-    color: var(--text-dark);
-    padding: 4px 0;
+    padding:.5rem 0;
     display: flex;
-    align-items: center;
-    gap: 5px;
+    align-items: start;
+    gap:1.25rem;
+    color: #001D49;
+    font-size: 1rem;
+    line-height:137.5%;
+    letter-spacing: -0.03319rem;
 }
 
 .job-list li i {
-    width: 12px;
-    height: 12px;
-    color: var(--accent-coral);
+    color: #DD685C;
+    font-size: 1.25rem;
+    font-weight: 800;
+    line-height:140%;
+    letter-spacing: -0.625rem;
+
 }
 
 .promo-image {
@@ -1321,7 +1340,7 @@ body {
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
+    gap:27.4rem;
 }
 
 .contact-form {
@@ -1331,18 +1350,23 @@ body {
 }
 
 .form-input {
-    padding: 10px 15px;
+    padding:.5rem 1rem;
     border: none;
-    border-radius: 4px;
-    font-size: 12px;
-    background-color: var(--white);
+    border-radius:0 .875rem .875rem .875rem;
+    background-color:#fff;
+    color: #646363;
+    font-size: 0.76875rem;
+    font-weight: 400;
+    line-height: 1.0625rem; /* 138.211% */
 }
 
 .form-input::placeholder {
-    color: var(--text-light);
+    color:#646363;
     font-size: 10px;
 }
-
+.form-input.form-input{
+    height:2.0625rem;
+}
 .form-row {
     display: flex;
     gap: 15px;
@@ -1350,47 +1374,35 @@ body {
 
 .form-textarea {
     flex: 1;
-    padding: 10px 15px;
+    padding:.5rem 1rem;
     border: none;
-    border-radius: 4px;
-    font-size: 12px;
-    background-color: var(--white);
+    border-radius:0 .875rem .875rem .875rem;
+    font-size: 0.76875rem;
+    font-weight: 400;
+    line-height: 1.0625rem; /* 138.211% */
+    background-color:#fff;
     min-height: 120px;
     resize: vertical;
-    font-family: inherit;
+    color:#646363;
+    outline:none!important;
 }
 
 .form-textarea::placeholder {
-    color: var(--text-light);
-    font-size: 10px;
-}
-
-.attachment-btn {
-    background-color: var(--accent-coral);
-    color: var(--white);
-    border: none;
-    padding: 15px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 11px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 2px;
+    font-size: 0.76875rem!important;
 }
 
 .submit-btn {
-    background-color: #888;
-    color: var(--white);
+    background-color: #8c8487;
     border: none;
     padding: 8px 20px;
-    border-radius: 4px;
+    border-radius:0 .875rem .875rem .875rem;
     cursor: pointer;
-    font-size: 11px;
     align-self: flex-start;
     margin-top: 10px;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem; /* 142.857% */
 }
 
 .contact-methods {
@@ -1407,7 +1419,16 @@ body {
     align-items: center;
     gap: 15px;
 }
+.contact-methods .contact-item{
+    background-color: #957181;
 
+}
+.contact-methods .contact-item .txt1,.contact-methods .contact-item .txt2{
+    color:#fff;
+}
+.contact-methods img{
+    filter: grayscale(100%) invert(100%);
+}
 .method-icon {
     width: 40px;
     height: 40px;
@@ -1441,7 +1462,10 @@ body {
     font-size: 14px;
     font-weight: 500;
 }
-
+.intro-section {
+    margin-bottom: 30px;
+}
+.contact{}
 /*contact*/
 /* Responsive */
 @media (max-width:991.98px) {
@@ -1616,4 +1640,7 @@ body {
         width: 6.05194rem;
     }
     .grid-bottom .img{height:12.5rem}
+    .contact-title{
+        margin-bottom:80vh;
+    }
 }
