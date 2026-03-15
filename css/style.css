@@ -1293,6 +1293,9 @@ body {
         right: calc(4rem / 4);
         top: calc(2.5rem / 4);
     }
+    .menu-btn{
+        height:1rem;
+    }
     /*page2*/
 }
 @media (min-width:992px) {
