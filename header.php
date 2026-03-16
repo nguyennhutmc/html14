@@ -19,20 +19,115 @@
                     <img src="images/logo.svg" alt="">
                 </a>
                 <nav id="mainNavbar" class="main-nav">
-                    <a href="#" class="nav-link">UNTERNEHMEN</a>
-                    <a href="#" class="nav-link active">BRANCHEN</a>
-                    <a href="#" class="nav-link">DIENSTLEISTUNG</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">UNTERNEHMEN</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Kennzahlen & Philosopie</a></li>
+                            <li><a class="dropdown-item" href="#">Karriere</a></li>
+                            <li><a class="dropdown-item" href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">BRANCHEN</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Premium & Luxury Automotive</a></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.google.com/">Industry Champions</a>
+                                <ul class="lv2">
+                                    <li><a href="#" class="dropdown-item">Med Tech</a></li>
+                                    <li><a href="#" class="dropdown-item">Chem Tech</a></li>
+                                    <li><a href="#" class="dropdown-item">Industry</a></li>
+                                    <li><a href="#" class="dropdown-item">Defense</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">MITMACHEN</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-bs-toggle="dropdown">DIENSTLEISTUNG</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Engineering & Projectmanagement</a></li>
+                            <li><a class="dropdown-item" href="#">Production & Assembly</a></li>
+                            <li><a class="dropdown-item" href="#">Validation & Testing</a></li>
+                            <li><a class="dropdown-item" href="#">Brands</a></li>
+                        </ul>
+                    </div>
                 </nav>
                 <div class="header-actions">
-                    <button class="icon-btn"><img src="images/icon-search.svg" alt=""></button>
+                    <div class="search_wap position-relative">
+                        <div class="search_form position-relative">
+                        <form action="" class="DocSearch-Form d-flex w-100">
+                            <label for="docsearch-input" class="DocSearch-MagnifierLabel position-absolute start-0 top-0 ps-1 lh-normal pt-0"><img class="icon-search" src="images/icon-search.svg" alt=""></label>
+                            <input id="docsearch-input" autocomplete="off" placeholder="" maxlength="64" type="text" value="" class="input-search DocSearch-Input">
+                        </form>
+                        </div>
+                    </div>
                     <a href="#" class="nav-link pc">KONTAKT</a>
                     <a href="#" class="nav-link pc">KARRIERE</a>
-                    <a href="#" class="nav-link"><span class="lang">EN</span><img class="ms-2 align-baseline" src="images/small_right.svg" alt=""></a>
-                    <a href="#" class="nav-link mb"><img class="menu-btn" src="images/menu.svg" alt=""></a>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            EN
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">US</a></li>
+                        </ul>
+                    </div>
+                    <a href="#" class="nav-link mb" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"><img class="menu-btn" src="images/menu.svg" alt=""></a>
                 </div>
             </div>
         </div>
     </header>
+    <div class="offcanvas text-bg-dark offcanvas-end w-100 visible" tabindex="-1" id="offcanvasNavbar">
+        <div class="mb">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close btn-close-white fs-6 ms-auto me-0 ps-0 pt-4" data-bs-dismiss="offcanvas"></button>
+            </div>
+        </div>
+        <div class="offcanvas-body p-lg-0">
+            <nav class="main-nav-mb">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-bs-toggle="dropdown">UNTERNEHMEN</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Kennzahlen & Philosopie</a></li>
+                        <li><a class="dropdown-item" href="#">Karriere</a></li>
+                        <li><a class="dropdown-item" href="#">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-bs-toggle="dropdown">BRANCHEN</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Premium & Luxury Automotive</a></li>
+                        <li>
+                            <a class="dropdown-item" href="https://www.google.com/">Industry Champions</a>
+                            <ul class="lv2">
+                                <li><a href="#" class="dropdown-item">Med Tech</a></li>
+                                <li><a href="#" class="dropdown-item">Chem Tech</a></li>
+                                <li><a href="#" class="dropdown-item">Industry</a></li>
+                                <li><a href="#" class="dropdown-item">Defense</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">MITMACHEN</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link" data-bs-toggle="dropdown">DIENSTLEISTUNG</a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Engineering & Projectmanagement</a></li>
+                        <li><a class="dropdown-item" href="#">Production & Assembly</a></li>
+                        <li><a class="dropdown-item" href="#">Validation & Testing</a></li>
+                        <li><a class="dropdown-item" href="#">Brands</a></li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">KONTAKT</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#" class="nav-link">KARRIERE</a>
+                </div>
+            </nav>
+        </div>
+    </div>
     <div class="header_height"></div>
 
 

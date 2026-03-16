@@ -4,7 +4,7 @@
     --ratio:1;
     --ratio-section:1;
     --color-primary:#9D65AA;
-    --bs-nav-link-font-size:calc(var(--ratio)*1.375rem);
+    --bs-nav-link-font-size:1rem;
     --bs-btn-font-size:calc(var(--ratio)*1.25rem);
     --bs-body-font-size:calc(var(--ratio)*1.25rem);
     --header-height:17rem;
