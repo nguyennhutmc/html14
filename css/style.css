@@ -934,6 +934,10 @@ body {
 }
 .service-card2-img img{
     width:100%;
+    transition:all .8s;
+}
+.service-card2:hover .service-card2-img img{
+    transform: scale(1.07);
 }
 .service-card--red {
     background: var(--color-red);
@@ -944,8 +948,11 @@ body {
     font-weight: 600;
     line-height: 2.1875rem; /* 140% */
     letter-spacing: -0.06406rem;
+    transition:all .3s;
 }
-
+.service-card2:hover .service-card__title{
+    opacity:0;
+}
 .contact-bar {
     display: flex;
     gap: 20px;
