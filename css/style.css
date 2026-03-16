@@ -116,7 +116,9 @@ body {
     align-items: center;
     gap:.86rem;
 }
-
+.header-actions .dropdown .dropdown-toggle::after{
+    transform:rotate(-90deg);
+}
 .input-search {
     background: none;
     border: none;
@@ -1720,6 +1722,9 @@ body {
         margin-bottom:80vh;
     }
     .dropdown-menu-dark{
-        margin-top:1.75rem!important;
+        margin-top:1.25rem!important;
+    }
+    .main-nav .nav-link{
+        padding:.5rem 0;
     }
 }
