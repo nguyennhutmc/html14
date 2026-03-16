@@ -12,7 +12,7 @@
 <body>
 <div id="page" class="vw-100">
     <!-- Header -->
-    <header class="header w-100 fixed-top">
+    <header class="header vw-100 fixed-top">
         <div class="container">
             <div class="header-inner">
                 <a href="#" class="logo">
