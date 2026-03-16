@@ -1731,3 +1731,8 @@ body {
         color: #F7AD00;
     }
 }
+@media (min-width:992px) and (max-width:1440px){
+    .header .container{
+        width:90vw;
+    }
+}
