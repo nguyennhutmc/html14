@@ -1727,4 +1727,7 @@ body {
     .main-nav .nav-link{
         padding:.5rem 0;
     }
+    .header .nav-link:hover{
+        color: #F7AD00;
+    }
 }
